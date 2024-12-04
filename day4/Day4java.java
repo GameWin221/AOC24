@@ -29,7 +29,7 @@ public class Day4java {
 
         for (int y = 0; y < rows; y++) {
             for (int x = 0; x < cols; x++) {
-                ArrayList<char[]> bufs = new ArrayList<>();
+                ArrayList<char[]> bufs = new ArrayList<>(4);
 
                 if (y < rows - 3) {
                     bufs.add(new char[]{ data.get(y).charAt(x), data.get(y+1).charAt(x), data.get(y+2).charAt(x), data.get(y+3).charAt(x) });
