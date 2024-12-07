@@ -11,7 +11,7 @@ fn find_guard(lines: &Vec<Vec<char>>) -> (i32, i32) {
         }
     }
 
-    return (0, 0);
+    return (-1, -1);
 }
 
 fn check(lines: &Vec<Vec<char>>, width: i32, height: i32, s_px: i32, s_py: i32, s_dx: i32, s_dy: i32) -> bool {
